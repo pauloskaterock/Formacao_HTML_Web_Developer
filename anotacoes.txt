@@ -1,0 +1,3 @@
+Primeiros computadores = Mark 1, colossus 1946 , Eniac 1946
+linguagem server-side = PHP, RUBY , JAVA , JS
+Plugins = live-server  
