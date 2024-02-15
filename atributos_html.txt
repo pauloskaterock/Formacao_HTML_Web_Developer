@@ -1,0 +1,44 @@
+Existem muitos atributos HTML disponíveis, e eles variam dependendo do elemento HTML ao qual são aplicados. 
+Aqui está uma lista de alguns dos atributos mais comuns usados em diferentes elementos HTML:
+
+Atributos Globais:
+Esses atributos podem ser aplicados a quase todos os elementos HTML.
+
+id: Define um identificador único para o elemento.
+class: Define uma ou mais classes para o elemento, que são usadas para estilização (CSS) e manipulação (JavaScript).
+style: Define estilos CSS inline para o elemento.
+title: Define um título para o elemento, geralmente exibido como uma dica de ferramenta.
+lang: Define o idioma do conteúdo do elemento.
+data-*: Atributos personalizados que podem ser usados para armazenar dados personalizados.
+tabindex: Especifica a ordem de tabulação dos elementos interativos.
+hidden: Indica que o elemento não deve ser exibido.
+contenteditable: Indica se o conteúdo do elemento pode ser editado pelo usuário.
+aria-*: Atributos de acessibilidade para tornar o conteúdo acessível a tecnologias assistivas.
+Atributos de Formulário:
+Esses atributos são comumente usados com elementos de formulário.
+
+name: Define o nome do elemento para ser enviado com o formulário.
+value: Define o valor inicial ou o valor atual do elemento.
+disabled: Indica que o elemento está desativado e não pode ser interagido.
+readonly: Indica que o elemento é somente leitura e não pode ser editado.
+required: Indica que o elemento é obrigatório.
+placeholder: Define um texto de espaço reservado que desaparece quando o elemento é preenchido.
+autofocus: Indica que o elemento deve receber automaticamente o foco quando a página é carregada.
+autocomplete: Controla a funcionalidade de preenchimento automático do navegador.
+form: Define o formulário ao qual o elemento pertence.
+Atributos de Links:
+Esses atributos são comumente usados com elementos <a> (links).
+
+href: Especifica o URL de destino do link.
+target: Especifica onde abrir o destino do link (por exemplo, _self, _blank, _parent, _top).
+download: Indica que o destino do link deve ser baixado quando clicado.
+Atributos de Imagem:
+Esses atributos são comumente usados com elementos <img> (imagens).
+
+src: Especifica o URL da imagem.
+alt: Define um texto alternativo para a imagem, exibido quando a imagem não pode ser carregada ou quando o 
+usuário está usando um leitor de tela.
+Esta é apenas uma lista parcial dos atributos HTML disponíveis. 
+Existem muitos outros atributos específicos para diferentes elementos HTML.
+
+
