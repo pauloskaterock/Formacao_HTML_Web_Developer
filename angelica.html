@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://via.placeholder.com/1920x1080') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+        .hero button {
+            padding: 15px 30px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #28a745;
+            border: none;
+            cursor: pointer;
+        }
+        .services, .testimonials, .contact {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 50px 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        .services h2, .testimonials h2, .contact h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .services .service, .testimonials .testimonial {
+            margin-bottom: 20px;
+        }
+        .contact form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .contact input, .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact button {
+            padding: 15px 30px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Minha Empresa</h1>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Bem-vindo à Nossa Empresa</h2>
+            <p>Oferecemos os melhores serviços para você.</p>
+            <button>Saiba Mais</button>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="service">
+                <h3>Serviço 1</h3>
+                <p>Descrição do Serviço 1.</p>
+            </div>
+            <div class="service">
+                <h3>Serviço 2</h3>
+                <p>Descrição do Serviço 2.</p>
+            </div>
+            <div class="service">
+                <h3>Serviço 3</h3>
+                <p>Descrição do Serviço 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>Depoimentos</h2>
+            <div class="testimonial">
+                <p>"A melhor empresa com a qual já trabalhei!" - Cliente Satisfeito</p>
+            </div>
+            <div class="testimonial">
+                <p>"Serviço excelente e equipe fantástica!" - Outro Cliente Satisfeito</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form>
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Minha Empresa. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
